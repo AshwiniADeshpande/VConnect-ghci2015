@@ -1,0 +1,147 @@
+
+
+/* Below line is used for online Google font */
+body {
+background-color: #f4f4f4;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+margin: 5px auto;
+width: 300px;
+}
+
+
+h2{
+padding: 30px 35px;
+margin: -10px -50px;
+text-align:center;
+border-radius: 10px 10px 0 0;
+}
+.note{
+color:red;
+}
+
+h1 { font-size: 2em;color:black;text-align:center; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+.btn-round {
+background-color: #5a5656;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+color: #f4f4f4;
+display: block;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+margin: 30px 125px;
+text-align: center;
+text-transform: uppercase;
+width: 50px;
+}
+input[type=button]{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+margin-bottom:10px;
+padding: 10px 0;
+outline:none;
+}
+.facebook_button {
+    display: inline-block;
+
+    background: #627aac url(facebook_small.png) left no-repeat;
+    border-top: 1px solid #29447e;
+    border-right: 1px solid #29447e;
+    border-bottom: 1px solid #1a356e;
+    border-left: none;
+    height: 40px;
+    padding-right: 7px;
+    padding-left: 29px;
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+	width: 100%;
+    text-decoration: none;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    line-height: 22px;
+    cursor: pointer;
+
+}
+
+.back{
+font-size: 14px;
+padding: 5px 15px;
+text-decoration: none;
+color: white;
+background-color: rgb(34, 128, 172);
+border-radius: 3px;
+border: 1px solid rgb(9, 78, 133);
+}
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #ccc;
+margin-bottom: 40px;
+}
+div.container{
+width: 900px;
+height: 610px;
+margin:35px auto;
+font-family: 'Raleway', sans-serif;
+}
+div.main{
+width: 300px;
+padding: 10px 50px 25px;
+border: 2px solid gray;
+border-radius: 10px;
+font-family: raleway;
+float:left;
+margin-top:30px;
+}
+input[type=text] , [type=password]{
+width: 95%;
+height: 25px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+label{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+input[type=button]{
+font-size: 16px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+margin-bottom:10px;
+padding: 10px 0;
+outline:none;
+}
+input[type=button]:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Vconnect</title>
+<!-- Include CSS file here -->
+<link href="style.css" rel="stylesheet">
+<!-- Include JS file here -->
+<script src="set_action.js"></script>
+</head>
+<body>
+
+<div class="container main">
+<form id="form_id" method="post" name="myform">
+<h1>Vconnect</h1>
+<h2>Volunteer For Cause</h2>
+<input id="email" name="email" placeholder="Valid Email Address" type="text"><br>
+<input id="password" name="password" placeholder="Password" type="password">
+<p><a href="#">Forgot Password?</a></p><br>
+<input onclick="userval()" type="button" value="Login">
+</form>
+<p><span class="btn-round">or</span></p>
+<input onclick="fb()" type="button" value="Login using facebook">
+<p><a href="#">New User? Signup</a></p>
+</div>
+<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+</body>
+</html>

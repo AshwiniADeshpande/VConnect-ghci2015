@@ -1,0 +1,22 @@
+
+
+
+scenarios		inputs required by				action
+		
+1)a new facebook user first time logs in into app/ or existing facebook user try to relogin
+   inputs :  fbustr set to 1 , usrname , email				           	action:check if any entry exists with same email id in the user_table.If not add	new entry.
+
+2) & 3) sysadmin user or existing app usr tries to login
+inputs: fbusr set to 0,email,usr_password
+action:encrypt the usr_password to sha1. check in user_table if there is any entry  with email. if so give message user logged in else give message invalid username / password.
+	
+4) new user sign up
+inputs:fbusr to 0,name,usr_password, surname, email, phone, photo,location,birthdate,gender,sec_qun,sec_ans,rating,desp
+provide null where ever no input from user.
+action:add an entry in user_table with above details.
+
+Pending work:
+php session mgmt
+how to insert sha1 sysadmin password for the first time?
+exception handling - of dql stmts
+
